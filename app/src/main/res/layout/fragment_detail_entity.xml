@@ -1,0 +1,176 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="56dp"
+    android:padding="4dp"
+    tools:context="id.ac.its.is.addi.halal.fragment.DetailEntityFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardElevation="@dimen/cardview_default_elevation"
+                    android:layout_margin="8dp">
+                    <LinearLayout
+                        android:padding="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/Base.TextAppearance.AppCompat.Subhead"
+                                android:text="Food ID"/>
+                            <TextView
+                                android:id="@+id/tv_foodid"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="16dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/Base.TextAppearance.AppCompat.Subhead"
+                                android:text="Food Name"/>
+                            <TextView
+                                android:id="@+id/tv_label"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:visibility="visible"
+                            android:id="@+id/layout_certificate"
+                            android:layout_marginTop="16dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/Base.TextAppearance.AppCompat.Subhead"
+                                android:text="Certificate"/>
+                            <TextView
+                                android:id="@+id/tv_certificate"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="16dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/Base.TextAppearance.AppCompat.Subhead"
+                                android:text="Food Info"/>
+                            <TextView
+                                android:id="@+id/tv_info"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardElevation="@dimen/cardview_default_elevation"
+                    android:layout_margin="8dp">
+                    <LinearLayout
+                        android:padding="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_marginTop="8dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/Base.TextAppearance.AppCompat.Subhead"
+                                android:text="Food Ingredients and Additive"/>
+                            <TextView
+                                android:id="@+id/tv_ingredients"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="16dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/Base.TextAppearance.AppCompat.Subhead"
+                                android:text="Food Ingredients"/>
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/recycler_viewIng"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:clipToPadding="false"
+                                android:scrollbars="vertical" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="16dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                style="@style/Base.TextAppearance.AppCompat.Subhead"
+                                android:text="Food Additives"/>
+                            <android.support.v7.widget.RecyclerView
+                                android:id="@+id/recycler_viewAdd"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:clipToPadding="false"
+                                android:scrollbars="vertical" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+
+                </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+
+</FrameLayout>

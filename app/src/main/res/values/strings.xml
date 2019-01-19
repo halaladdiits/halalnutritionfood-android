@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Halal Nutrition Food</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_entity">EntityActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_halal_1">Halal Nutrition Food merupakan produk riset dari Jauhar Fatawi dan Nur Aini Rakhmawati. S.Kom., M.Sc.Eng. yang dikembangkan di Laboratorium Akuisisi Data dan Diseminasi Informasi Jurusan Sistem Informasi Institut Teknologi Sepuluh Nopember Surabaya yang berfokus pada data dan informasi.</string>
+    <string name="about_halal_0">Sebagai negara yang mayoritas berpenduduk muslim, masyarakat Indonesia perlu mengetahui mana makanan yang halal dan yang bukan. Selain halal, asupan nutrisi dari makanan juga harus diperhatian. Oleh karena itu muncullah gagasan penelitian website halal nutrition food dimana memberikan pengguna informasi tentang halal serta nutrisi produk makanan dan minuman.</string>
+    <string name="about_halal_2">Nur Aini Rakhmawati, Ph.D \n Jauhar Fatawi, S. Kom. \n Adnan Mauludin Fajriyadi, S. Kom \n Ahmad Choirun Najib \n Azmi Adi Firmansyah</string>
+    <string name="main_help">Tekan ikon pencarian untuk melakukan pencarian produk atau bahan makanan</string>
+</resources>

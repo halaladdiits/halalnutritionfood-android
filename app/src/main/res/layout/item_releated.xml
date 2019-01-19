@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:elevation="3dp"
+    card_view:cardCornerRadius="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:id="@+id/tv_fName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Monosodium Glutamate"/>
+        <TextView
+            android:id="@+id/tv_similarityScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Score 0.6"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
